@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "803636128976",
+    "firebase_url": "https://grooverjazztheapp.firebaseio.com",
+    "project_id": "grooverjazztheapp",
+    "storage_bucket": "grooverjazztheapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803636128976:android:77b1ff72958b0781",
+        "android_client_info": {
+          "package_name": "com.josfeenstra.grooverjazztheapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803636128976-ie1kennhbbouldj22ecff22mk3ok9quh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.josfeenstra.grooverjazztheapp",
+            "certificate_hash": "f663954eedd92847351bd324f9e23d0a1f39760b"
+          }
+        },
+        {
+          "client_id": "803636128976-bm5rmrlb5v1gka32nb4i0566qddnt9th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkTfXP5rQnqkCj4Fgi8ZuIbJOVy_uiUXM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803636128976-bm5rmrlb5v1gka32nb4i0566qddnt9th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

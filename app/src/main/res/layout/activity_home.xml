@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.josfeenstra.grooverjazztheapp.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/headerWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+        <TextView
+            android:id="@+id/headerChooseActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Activity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+        <Button
+            android:id="@+id/buttonOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search music of friends" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/buttonConcerts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discover new Music" />
+
+        <Button
+            android:id="@+id/buttonMyConcerts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="my Music" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonViewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="View Profile" />
+
+            <Button
+                android:id="@+id/buttonLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Log Out" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
